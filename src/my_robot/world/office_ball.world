@@ -1,6 +1,7 @@
 <?xml version="1.0" ?>
 <sdf version="1.7">
   <world name="office_ball_world">
+    <plugin name="hello" filename="libhello.so"/>
 
     <gravity>0 0 -9.8</gravity>
 
